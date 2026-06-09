@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+  <link rel="stylesheet" href="playing-cards.css">
+</head>
+
+<body>
+  <main id="playing-cards">
+    <div class="card card1">
+      <div class="left">A<br>♠</div>
+      <div class="middle">♠</div>
+      <div class="right">A<br>♠</div>
+    </div>
+    <div class="card card2">
+      <div class="left">A<br>♣</div>
+      <div class="middle">♣</div>
+      <div class="right">A<br>♣</div>
+    </div>
+    <div class="card card3 red">
+      <div class="left">A<br>♥</div>
+      <div class="middle">♥</div>
+      <div class="right">A<br>♥</div>
+    </div>
+    <div class="card card4 red">
+      <div class="left">2<br>♦</div>
+      <div class="middle">♦♦</div>
+      <div class="right">2<br>♦</div>
+    </div>
+    <div class="card card5">
+      <div class="left">2<br>♣</div>
+      <div class="middle">♣<br><span class="upside-down">♣</span></div>
+      <div class="right">2<br>♣</div>
+    </div>
+    <div class="card card6">
+      <div class="left">5<br>♣</div>
+      <div class="middle">♣♣<br>♣<span class="upside-down">♣♣</span></div>
+      <div class="right">5<br>♣</div>
+    </div>
+    <div class="card card7">
+      <div class="left">6<br>♠</div>
+      <div class="middle">♠♠<br>♠♠<span class="upside-down">♠♠</span></div>
+      <div class="right">6<br>♠</div>
+    </div>
+    <div class="card card8 red">
+      <div class="left">7<br>♥</div>
+      <div class="middle">♥♥<br>♥<span class="upside-down">♥♥<br>♥♥</span></div>
+      <div class="right">7<br>♣</div>
+    </div>
+    <div class="card card9 red">
+      <div class="left">8<br>♦</div>
+      <div class="middle">♦♦<br>♦♦<span class="upside-down">♦♦<br>♦♦</span></div>
+      <div class="right">8<br>♦</div>
+    </div>
+  </main>
+</body>
+
+</html>
